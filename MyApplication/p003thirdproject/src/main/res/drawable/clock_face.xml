@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="300dp"
+    android:viewportWidth="300"
+    android:viewportHeight="300">
+
+
+    <!-- Центральная точка -->
+    <path
+        android:pathData="M150,150 A5,5 0 1 1 150.1,150"
+        android:fillColor="#333333"/>
+
+    <!-- Часовые метки (оставить как есть) -->
+    <group>
+        <!-- 12 часов -->
+        <path
+            android:pathData="M150,10 L150,30"
+            android:strokeWidth="4"
+            android:strokeColor="#333333"/>
+        <!-- 3 часа -->
+        <path
+            android:pathData="M290,150 L270,150"
+            android:strokeWidth="4"
+            android:strokeColor="#333333"/>
+        <!-- 6 часов -->
+        <path
+            android:pathData="M150,290 L150,270"
+            android:strokeWidth="4"
+            android:strokeColor="#333333"/>
+        <!-- 9 часов -->
+        <path
+            android:pathData="M10,150 L30,150"
+            android:strokeWidth="4"
+            android:strokeColor="#333333"/>
+    </group>
+</vector>
