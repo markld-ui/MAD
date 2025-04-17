@@ -22,4 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "My Application"
 include(":app")
 include(":p003thirdproject")
- 
+include(":p004fourthproject")
